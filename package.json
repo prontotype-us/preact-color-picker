@@ -1,0 +1,16 @@
+{
+  "name": "preact-color-picker",
+  "version": "0.0.1",
+  "homepage": "http://github.com/prontotype-us/preact-color-picker",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/prontotype-us/preact-color-picker"
+  },
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "cjsx --bare -o lib -c src"
+  },
+  "dependencies": {
+    "preact": "^8.3.1"
+  }
+}
